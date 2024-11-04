@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howard's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Howard's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <img src="profile.jpeg" alt="Profile Picture" class="profile-picture">
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Howard, a computer science student with a passion for AI, IoT, and Software Engineering. I enjoy creating projects with energy and enthusiasm!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: AI Chatbot</h3>
+            <p>A simple chatbot that interacts with users and answers basic questions.</p>
+            
+        </div>
+        <div class="project">
+            <h3>Project 2:IoT Toilet System</h3>
+            <p>A smart Toilet which opens when you open the door and closes after you are done with your business and self 
+                flush,it also plays white noises while you are relieving yourself.
+            </p>
+            <p>It deterines wether you are doing a long or short call and the amount of water used is based on it hence reduce water water
+                wastage and coserves our environment
+            </p>
+
+        </div>
+        <div class="project">
+            <h3>Project 3: IoT Beekeeping System</h3>
+            <p>A smart beekeeping setup that monitors hive conditions using IoT sensors.</p>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT ME</h2>
+      <div class="flex-container">
+        <p class="flex-items">Email: <a href="mailto:kuskisku@gmail.com">kuskisku@gmail.com</a></p>
+        <p class="flex-items">LinkedIn: <a href="https://linkedin.com/in/howard">linkedin.com/in/howard</a></p>
+      </div>
+      <form action="https://formspree.io/f/Howard" method="POST" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" name="send">Send</button>
+      </form>
+      <div id="formResponse"></div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 Howard's Portfolio</p>
+    </footer>
+</body>
+</html>
